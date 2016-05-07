@@ -1,0 +1,7 @@
+#!/bin/bash
+
+echo '{"version":1}'
+echo '['
+echo '[],'
+exec conky -c /home/fireson435/.config/conky/conkyrc
+

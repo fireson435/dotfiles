@@ -1,0 +1,82 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 436,
+       "width": 644,
+       "x": 0,
+       "y": 0
+    },
+    "name": "vmd",
+    "percent": 0.3,
+    "swallows": [
+       {
+       "class": "^URxvt$",
+       "instance": "^urxvt$",
+       "title": "^vmd$",
+       "transient_for": "^$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "normal",
+    "current_border_width": 2,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 834,
+       "width": 669,
+       "x": 596,
+       "y": 4294967172
+    },
+    "name": "VMD 1.9.2 OpenGL Display",
+    "percent": 0.7,
+    "swallows": [
+       {
+       "title": "^VMD\\ 1\\.9\\.2\\ OpenGL\\ Display$",
+       "transient_for": "^$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // floating_con with 1 children
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "percent": null,
+    "rect": {
+       "height": 212,
+       "width": 474,
+       "x": 5,
+       "y": 205
+    },
+    "type": "floating_con",
+    "nodes": [
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "user_on",
+            "geometry": {
+               "height": 190,
+               "width": 470,
+               "x": 5,
+               "y": 225
+            },
+            "name": "VMD Main",
+            "percent": 1,
+            "swallows": [
+               {
+               "title": "^VMD\\ Main$",
+               "transient_for": "^$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
